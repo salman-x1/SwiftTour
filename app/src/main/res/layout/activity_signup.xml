@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:background="@color/purple_200">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:text="Become our Happy Member"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_person_24"
+            android:layout_marginLeft="25dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/wave"/>
+
+    <EditText
+        android:id="@+id/names"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/name"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginTop="0dp"
+        />
+
+
+    <EditText
+        android:id="@+id/addresss"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_baseline_location_city_24"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/emails"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/passwords"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+
+    <Button
+        android:id="@+id/registers"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_bg"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/gologin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="24dp"
+        android:text="Already Have an Account? SignIn"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

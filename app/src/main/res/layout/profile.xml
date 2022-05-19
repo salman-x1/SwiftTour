@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@android:color/holo_blue_light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_search"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="72dp"
+            android:src="@drawable/salman"
+            app:civ_border_color="#00000000"
+            app:civ_border_width="2dp"
+            app:civ_circle_background_color="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salman"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Add yours Review"
+           android:layout_marginLeft="10dp"
+           android:textColor="@color/black"
+           android:fontFamily="@font/montserrat"
+           android:textSize="20sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/caption"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="9"
+            android:hint="Add Yours REview"
+            android:background="@drawable/line"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+
+            />
+        <ImageView
+            android:id="@+id/upimg"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="2"
+            android:src="@drawable/ic_baseline_image_24"
+            android:layout_marginEnd="10dp"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/post"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Post"
+        android:fontFamily="@font/montserrat"
+        android:background="@drawable/round_bg"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round_bg"
+        android:text="LOGOUT"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginTop="200dp"/>
+
+
+</LinearLayout>

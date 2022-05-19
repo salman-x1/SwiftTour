@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35455492877",
+    "project_id": "swift-tour-a1fb5",
+    "storage_bucket": "swift-tour-a1fb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35455492877:android:dc364b1f5d01bebbd9c644",
+        "android_client_info": {
+          "package_name": "com.example.swifttour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35455492877-6vs9rr25hjvu8q1do0jqala0j5pkbmag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuLu7T7FTDnDmTkntKBYOwxlujrJLvBoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35455492877-6vs9rr25hjvu8q1do0jqala0j5pkbmag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

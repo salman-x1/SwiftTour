@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PlansFragment">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Search"
+       android:textColor="@color/black"
+       android:fontFamily="@font/montserrat"
+       android:textSize="30sp"
+       android:textStyle="bold"
+       android:textFontWeight="700"
+       android:padding="10dp"/>
+
+
+        <EditText
+            android:id="@+id/editMobileNo"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/montserrat"
+            android:textColorHint="@color/black"
+            android:layout_margin="5dp"
+            android:background="@drawable/layout_bg"
+            android:hint="Find your dil ki deal"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:gravity="center" >
+        </EditText>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Attraction Nearby"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textFontWeight="700"
+                android:padding="10dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imuge"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/emp" />
+
+                <TextView
+                    android:id="@+id/tvt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imuge"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Emporium Mall"
+                    android:textColor="@color/black"
+                    android:textFontWeight="600"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvt"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Shopping Mall"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descb"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="open Now"
+                    android:textColor="@color/black"
+                    android:textFontWeight="400"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imuge"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/packages" />
+
+                <TextView
+                    android:id="@+id/tvt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imuge"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Packages Mall"
+                    android:textColor="@color/black"
+                    android:textFontWeight="600"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvt"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Shopping Mall"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descb"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="open Now"
+                    android:textColor="@color/black"
+                    android:textFontWeight="400"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imuge1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/amanah" />
+
+                <TextView
+                    android:id="@+id/tvt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imuge1"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Amanah Mall"
+                    android:textColor="@color/black"
+                    android:textFontWeight="600"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvt1"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Shopping Mall"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descb1"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="open Now"
+                    android:textColor="@color/black"
+                    android:textFontWeight="400"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurants Nearby"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textFontWeight="700"
+                android:padding="10dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imuge"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/mcdonalds" />
+
+                <TextView
+                    android:id="@+id/tvt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imuge"
+                    android:fontFamily="@font/montserrat"
+                    android:text="McDonald's"
+                    android:textColor="@color/black"
+                    android:textFontWeight="600"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvt"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="fast food"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descb"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="open Now"
+                    android:textColor="@color/black"
+                    android:textFontWeight="400"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imuge"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/kfc" />
+
+                <TextView
+                    android:id="@+id/tvt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imuge"
+                    android:fontFamily="@font/montserrat"
+                    android:text="KfC"
+                    android:textColor="@color/black"
+                    android:textFontWeight="600"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvt"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Resturant"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descb"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="open Now"
+                    android:textColor="@color/black"
+                    android:textFontWeight="400"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imuge1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/howdy" />
+
+                <TextView
+                    android:id="@+id/tvt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imuge1"
+                    android:fontFamily="@font/montserrat"
+                    android:text="HOWDY"
+                    android:textColor="@color/black"
+                    android:textFontWeight="600"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvt1"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Restraunts"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descb1"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="open Now"
+                    android:textColor="@color/black"
+                    android:textFontWeight="400"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weekends Nearby"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textFontWeight="700"
+                android:padding="10dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imuge"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sirinagar" />
+
+                <TextView
+                    android:id="@+id/tvt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imuge"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Sirinagar"
+                    android:textColor="@color/black"
+                    android:textFontWeight="600"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvt"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Mountains"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descb"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="open Now"
+                    android:textColor="@color/black"
+                    android:textFontWeight="400"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imuge"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/manali" />
+
+                <TextView
+                    android:id="@+id/tvt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imuge"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Manali"
+                    android:textColor="@color/black"
+                    android:textFontWeight="600"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvt"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Mountains"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descb"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="open Now"
+                    android:textColor="@color/black"
+                    android:textFontWeight="400"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imuge1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/islamabad" />
+
+                <TextView
+                    android:id="@+id/tvt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imuge1"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Islamabad"
+                    android:textColor="@color/black"
+                    android:textFontWeight="600"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvt1"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Nature"
+                    android:textColor="@color/black"
+                    android:textFontWeight="500"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/descb1"
+                    android:layout_marginLeft="112dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="open Now"
+                    android:textColor="@color/black"
+                    android:textFontWeight="400"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>
